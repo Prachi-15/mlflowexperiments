@@ -53,7 +53,19 @@ PERFORM IN REMOTE SERVER:
 
 Dagshub: Open source data science collaboration platform, we can give URL of dagshub and run it their.
 
+delete mlrun.
+make README.md file
+
 Create github repository: git init
+git add .
+git status
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Prachi-15/mlflowexperiments.git
+git push -u origin main
+
+
+
 
 
 
