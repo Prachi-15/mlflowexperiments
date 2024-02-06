@@ -1,0 +1,25 @@
+1. Introduction to Experiment Tracking with MLflow
+
+ML Experiment: Process of building ML model.
+
+Experiment Run: Single execution of this particular experiment is called ML run.
+
+Run Artifact: Output file associate with ML experiments.
+
+Metadata: Exp. information like parameters, start and end time.
+
+What is Expriment tracking?
+
+Process of keeping track of all the relevant information from an ML experiment, includes.
+
+Source code
+Environment
+Data
+Model
+Hyperparameters
+Metrics
+
+
+STEP 1: Create virtual environment.  
+STEP 2. pip install mlflow.
+STEP 3. mlflow :   it has lots of command. 

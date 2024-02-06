@@ -1,0 +1,69 @@
+https://www.youtube.com/watch?v=qdcHHrsXA48&t=13s
+
+PS D:\ML Flow> python -m venv mlflow
+PS D:\ML Flow> .\mlflow\Scripts\activate
+
+make requirements.txt:  mlflow == 2.5.0
+
+# PERFORM IN LOCAL SERVER.
+
+install requirements.txt: pip install -r requirements.txt
+
+make app.py : and excute it : python app.py
+
+mlruns folder is created inside this 0 folder we can see many runs:
+
+With this files in artifact folder we can load it in any environment.
+
+0dcf52a1285d4eae923a26e...--> artifacts --> 
+
+Files inside artifacts:
+
+1. conda.yaml (has basic information about entire project.) 
+
+2. MLmodel has entire detail of MLflow project.
+
+MLflow project : Package data science code in a format to reproduce and run on any platform.
+
+3. python_env.yaml: basic dependencies.
+
+4. requirements.txt: contains all the packages that needs to be intall.
+
+To see ui of ml flow enter commands: mlflow ui
+
+Run with parameters: python app.py 0.3 0.7
+
+# How do you able to manage collabratively:
+
+Example:another developer trying to work in same project also wants to give his experiment. But how
+
+For this we can set remote server: Dagshub
+
+How we can compare diffrent experiments.
+
+In ui select those exp. which you want to compare and click on compare.
+
+Run another experiment: python app.py 0.6 0.6
+
+mlflow ui
+
+select and compare experiment.
+
+PERFORM IN REMOTE SERVER:
+
+Dagshub: Open source data science collaboration platform, we can give URL of dagshub and run it their.
+
+Create github repository: git init
+
+
+
+
+
+
+
+
+
+
+
+
+
